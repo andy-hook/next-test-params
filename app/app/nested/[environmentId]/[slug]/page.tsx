@@ -1,6 +1,6 @@
 "use client";
 
-import { DemoComponent } from "../../../DemoComponent";
+import { DemoComponent } from "../../../../../DemoComponent";
 
 const Component = () => (
   <>

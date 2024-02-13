@@ -16,10 +16,20 @@ export default function Home() {
         <Link href="/pages/foobar?baz=lorem">/pages/foobar?baz=lorem</Link>
       </li>
       <li>
+        <Link href="/pages/nested/1234/foobar?baz=lorem">
+          /pages/nested/1234/foobar?baz=lorem
+        </Link>
+      </li>
+      <li>
         <Link href="/app/foobar">/app/foobar</Link>
       </li>
       <li>
         <Link href="/app/foobar?baz=lorem">/app/foobar?baz=lorem</Link>
+      </li>
+      <li>
+        <Link href="/app/nested/1234/foobar?baz=lorem">
+          /pages/nested/1234/foobar?baz=lorem
+        </Link>
       </li>
     </main>
   );
