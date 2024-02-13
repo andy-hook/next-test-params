@@ -28,7 +28,7 @@ export default function Home() {
       </li>
       <li>
         <Link href="/app/nested/1234/foobar?baz=lorem">
-          /pages/nested/1234/foobar?baz=lorem
+          /app/nested/1234/foobar?baz=lorem
         </Link>
       </li>
     </main>
