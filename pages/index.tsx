@@ -5,9 +5,8 @@ export default function Home() {
   return (
     <main>
       <p>
-        This reproduction demonstrates unexpected differences in behavior for
-        useSearchParams() and useParams() in the app router and the pages
-        router.
+        Validate useSearchParams(), useParams() and usePathname() return values
+        in the app and pages router.
       </p>
 
       <li>

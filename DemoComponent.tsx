@@ -1,8 +1,9 @@
-import { useParams, useSearchParams } from "next/navigation";
+import { useParams, usePathname, useSearchParams } from "next/navigation";
 
 export function DemoComponent() {
   const params = useParams();
   const searchParams = useSearchParams();
+  const pathname = usePathname();
 
   return (
     <div>
@@ -17,6 +18,9 @@ export function DemoComponent() {
           2
         )}
       </pre>
+
+      <h2>usePathname()</h2>
+      <pre>{JSON.stringify(pathname, null, 2)}</pre>
     </div>
   );
 }
